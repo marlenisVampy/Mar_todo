@@ -1,0 +1,1 @@
+Aplicación para creación y manejo de listas de quehaceres

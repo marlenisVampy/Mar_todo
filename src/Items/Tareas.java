@@ -20,13 +20,10 @@ public Tareas(List<Item> new_item)
 	{
 		//new_it = new ArrayList<Item>();
 		new_it.add(new Item(NombreItem,estado));
-		System.out.println("\n ** Nuevo tarea agregada");
-
 	}
 	 public void verestadoTareas()
 	 {
-	 		//int k = 0;
-		 for ( int k = 0; k <= new_it.size() - 1; k++) {
+	 		for ( int k = 0; k <= new_it.size() - 1; k++) {
            
             if(new_it.get(k).getestadoItem() == true)
             {
@@ -49,7 +46,7 @@ public Tareas(List<Item> new_item)
 
 	public void verTareas()
 	{
-		System.out.println("\n\t\t Estos son los elementos \n");
+		
 		System.out.println("\nTarea      ||    Estado \n");
 
 		for( int i = 0 ; i < new_it.size(); ++i ) { 
@@ -62,8 +59,7 @@ public Tareas(List<Item> new_item)
 		for(  j = 0 ; j < new_it.size(); ++j ) { 
              new_it.remove(j);
          }  
-         System.out.println("\n ** Se ha eliminado una tarea " + (j+1));		
-	}
+       	}
 
 }
 
